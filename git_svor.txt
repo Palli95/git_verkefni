@@ -7,4 +7,6 @@ Git spuringar og svör
 	pwd
 	mkdir
 
-	
+
+
+	Páll Jónsson
