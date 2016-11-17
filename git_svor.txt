@@ -1,12 +1,37 @@
-Git spuringar og svör
+﻿Git spuringar og svör
 
 1. Hvað gera eftirfarandi Linux skipanir?
-	cd
-	cd ~
-	ls
-	pwd
-	mkdir
+	cd   -notað til að skipta um möppu
+	cd ~ -fara i heimamöppu users
+	ls   -List  information
+	pwd  -print working directory
+	mkdir-búa til möppur
 
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone	-afrita
+	git log		-Show commit logs
+	git status	-Show the working tree status
+	git diff	-Show changes between commits, commit and working tree, etc
+	git checkout	-Switch branches or restore working tree files
 
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff 			-Show changes between commits, commit and working tree, etc
+	b) git diff --staged 		-Shows the changes between the index and the HEAD(which is the last commit on this branch). This shows what has been added to the index and staged for a commit.
+	c) git diff commit1 commit2
+
+4. 	Hvað er útgáfustýring (e.version control)? -Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+5.	Hverjir eru helstu kostir við að nota GIT? -ef unnið er í hóp verður ekkert rugl, öll gögnin alltaf a netinu.
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu? -eftir að maður breytir eitthverju, til að sjá hver breytti hverju og hvenær.
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+
+Working directory - heldur utanum gögnin.
+Staging area	  - index
+Repository	  - mappan
+
+8.	Hvenær er sniðugt að nota greinar (branches)?
+ -Branches are used to develop features isolated from each other
 
 	Páll Jónsson
